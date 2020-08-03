@@ -12,6 +12,11 @@ public class MainTest extends PersonData{
 		//public method : accessable
 		personData.getAge();
 		
+		//protected
+		MainTest mainTest = new MainTest();
+		
+		mainTest.getSalary();
+		
 	}
 
 }
